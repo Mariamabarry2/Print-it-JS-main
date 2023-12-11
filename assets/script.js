@@ -24,16 +24,14 @@ const Arrowleft = document.querySelector(".arrow_left");
 
 Arrowleft.addEventListener("click", () => {
 	changeslide(-1);
-
-
+console.log(Arrowleft);
 });
 
 // Eventlistener pour fleche droite
 const Arrowright = document.querySelector(".arrow_right");
 Arrowright.addEventListener("click", () => {
 	changeslide(1);
-
-
+	console.log(Arrowright);
 });
 
 
