@@ -37,6 +37,7 @@ Arrowright.addEventListener("click", () => {
 
 function changedots () {
 	const dotsDiv = document.querySelector(".dots");
+// Je vide la div avant de la remplir	
 	dotsDiv.innerHTML ='';
 // Ajout des bullets
 	for (let i = 0; i < slides.length; i++) {
